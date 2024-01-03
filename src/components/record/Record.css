@@ -1,0 +1,27 @@
+.Item-info {
+    background-image: url('../../assets/green_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 7px;
+    box-shadow: 0 5px 4px #ccc;
+    position: relative;
+    width: 33%;
+    font-size: 15px;
+    font-family: cursive;
+    margin: 5px auto;
+}
+
+@media (max-width:786px) {
+    .Item-info { 
+        width: 90%;
+        font-size: 20px;
+    }  
+}
+  
+ .Item-info img {
+     float: right;
+     position: relative;
+     right: 20px;
+     top: 5px;
+ }
